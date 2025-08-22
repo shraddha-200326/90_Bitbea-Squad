@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block title %}Audit Report{% endblock %}
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">📊 Audit Report for <span class="text-primary">{{ url }}</span></h1>
+
+    <!-- Score and Downloads -->
+    <div class="score-box mb-4">
+        <strong>Overall Score:</strong> <span class="badge bg-success">{{ result.score }}</span>
+        <div class="btn-group float-end">
+            <a href="{{ url_for('download_report') }}" class="btn btn-success btn-sm"><i class="fas fa-file-alt"></i> TXT</a>
+            <a href="{{ url_for('download_pdf', url=url) }}" class="btn btn-primary btn-sm"><i class="fas fa-file-pdf"></i> PDF</a>
+            <a href="{{ url_for('download_csv', url=url) }}" class="btn btn-info btn-sm"><i class="fas fa-file-csv"></i> CSV</a>
+        </div>
+    </div>
+
+    <!-- Weighted Progress Bars -->
+    {% set security_pct = (result.security.score / result.security.max) * 100 %}
+    {% set performance_pct = (result.performance.score / result.performance.max) * 100 %}
+    {% set seo_pct = (result.seo.score / result.seo.max) * 100 %}
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="section-card">
+                <h5>🔐 Security Score</h5>
+                <p>{{ result.security.score }}/{{ result.security.max }}</p>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: {{ security_pct }}%" aria-valuenow="{{ security_pct }}" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="section-card">
+                <h5>⚡ Performance Score</h5>
+                <p>{{ result.performance.score }}/{{ result.performance.max }}</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: {{ performance_pct }}%" aria-valuenow="{{ performance_pct }}" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="section-card">
+                <h5>📈 SEO Score</h5>
+                <p>{{ result.seo.score }}/{{ result.seo.max }}</p>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: {{ seo_pct }}%" aria-valuenow="{{ seo_pct }}" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Security Details -->
+    <div class="section-card">
+        <h3>🔐 Security Details</h3>
+        <ul>
+            <li>HTTPS: {{ 'Yes' if result.security.is_https else 'No' }}</li>
+            <li>Security Headers:
+                <ul>
+                    {% for header, value in result.security.headers.items() %}
+                        <li>{{ header }}: {{ 'Present' if value else 'Missing' }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>Insecure Scripts:
+                <ul>
+                    {% if result.security.insecure_scripts %}
+                        {% for script in result.security.insecure_scripts %}
+                            <li>{{ script }}</li>
+                        {% endfor %}
+                    {% else %}
+                        <li>None detected</li>
+                    {% endif %}
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Performance Details -->
+    <div class="section-card">
+        <h3>⚡ Performance Details</h3>
+        <ul>
+            <li>JS Files: {{ result.performance.js_files | length }}</li>
+            <li>CSS Files: {{ result.performance.css_files | length }}</li>
+            <li>Lazy-loaded Images: {{ result.performance.lazy_images }}</li>
+            <li>Minified Assets:
+                <ul>
+                    {% if result.performance.minified_assets %}
+                        {% for asset in result.performance.minified_assets %}
+                            <li>{{ asset }}</li>
+                        {% endfor %}
+                    {% else %}
+                        <li>No minified assets found</li>
+                    {% endif %}
+                </ul>
+            </li>
+            <li>Page Size: {{ result.performance.page_size_bytes }} bytes</li>
+        </ul>
+    </div>
+
+    <!-- SEO Details -->
+    <div class="section-card">
+        <h3>📈 SEO Details</h3>
+        <ul>
+            <li>Title: {{ result.seo.title }}</li>
+            <li>Meta Description: {{ result.seo.meta_description }}</li>
+            <li>Meta Robots: {{ result.seo.meta_robots }}</li>
+            <li>Canonical URL: {{ result.seo.canonical }}</li>
+            <li>Images Missing Alt: {{ result.seo.images_missing_alt }}</li>
+        </ul>
+    </div>
+
+    <!-- 🔙 Back Button at Bottom -->
+    <div class="text-center mt-5 mb-4">
+        <a href="{{ url_for('home') }}" class="btn btn-outline-secondary btn-lg"><i class="fas fa-arrow-left"></i> Back to Audit</a>
+    </div>
+</div>
+{% endblock %}

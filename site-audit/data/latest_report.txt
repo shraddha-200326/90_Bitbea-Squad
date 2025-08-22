@@ -1,0 +1,34 @@
+Audit Report for https://amazon.com
+
+SECURITY:
+  is_https: True
+  headers: {'Content-Security-Policy': None, 'X-Frame-Options': None, 'Strict-Transport-Security': 'max-age=47474747; includeSubDomains; preload'}
+  insecure_scripts: []
+  score: 3
+  max: 5
+
+PERFORMANCE:
+  js_files: []
+  css_files: []
+  lazy_images: 0
+  minified_assets: []
+  page_size_bytes: 2671
+  score: 0
+  max: 2
+
+SEO:
+  title: Sorry! Something went wrong!
+  meta_description: None
+  meta_robots: None
+  headings: []
+  images_missing_alt: 0
+  canonical: None
+  score: 3
+  max: 5
+
+SCORE:
+6/12
+
+MAX_SCORE:
+12
+

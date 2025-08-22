@@ -1,0 +1,21 @@
+<body>
+  <h1>Website Audit</h1>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul style="color: red;">
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+
+  <form action="/run_audit" method="post">
+    <input type="text" name="url" placeholder="Enter website URL" required>
+    <button type="submit">Run Audit</button>
+  </form>
+
+  <br>
+  <a href="/history">📜 View Audit History</a>
+</body>

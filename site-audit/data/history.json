@@ -1,0 +1,254 @@
+[
+  {
+    "url": "https://amazon.com",
+    "score": "6/12",
+    "timestamp": "2025-08-22 10:36:36",
+    "title": "Sorry! Something went wrong!"
+  },
+  {
+    "url": "https://amazon.com",
+    "score": "6/12",
+    "timestamp": "2025-08-22 10:11:41",
+    "title": "Sorry! Something went wrong!"
+  },
+  {
+    "url": "https://amazon.com",
+    "score": "6/12",
+    "timestamp": "2025-08-22 09:26:22",
+    "title": "Sorry! Something went wrong!"
+  },
+  {
+    "url": " http://google.com",
+    "score": "4/12",
+    "timestamp": "2025-08-22 09:24:05",
+    "title": "Google"
+  },
+  {
+    "url": " http://google.com",
+    "score": "4/12",
+    "timestamp": "2025-08-22 07:37:21",
+    "title": "Google"
+  },
+  {
+    "url": " http://google.com",
+    "score": "4/12",
+    "timestamp": "2025-08-22 06:33:52",
+    "title": "Google"
+  },
+  {
+    "url": "https://google.com",
+    "score": "6/12",
+    "timestamp": "2025-08-22 06:29:28",
+    "title": "Google"
+  },
+  {
+    "url": " http://google.com",
+    "score": "4/12",
+    "timestamp": "2025-08-22 06:25:47",
+    "title": "Google"
+  },
+  {
+    "url": " http://google.com",
+    "score": "4/12",
+    "timestamp": "2025-08-22 06:25:47",
+    "title": "Google"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "10/12",
+    "timestamp": "2025-08-22 01:56:45",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "10/12",
+    "timestamp": "2025-08-22 01:44:39",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "10/12",
+    "timestamp": "2025-08-22 01:42:09",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "10/12",
+    "timestamp": "2025-08-22 01:31:07",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "10/12",
+    "timestamp": "2025-08-22 01:28:59",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "10/12",
+    "timestamp": "2025-08-22 01:28:42",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "10/12",
+    "timestamp": "2025-08-22 01:28:23",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "10/12",
+    "timestamp": "2025-08-22 01:24:44",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://facebook.com",
+    "score": "8/12",
+    "timestamp": "2025-08-22 01:12:53",
+    "title": "Facebook - \u0cb2\u0cbe\u0c97\u0ccd \u0c87\u0ca8\u0ccd \u0c85\u0ca5\u0cb5\u0cbe \u0cb8\u0cc8\u0ca8\u0ccd \u0c85\u0caa\u0ccd"
+  },
+  {
+    "url": "https://crompton.com",
+    "score": "3/7",
+    "timestamp": "2025-08-22 00:00:23",
+    "title": " WA3DSP Home Page "
+  },
+  {
+    "url": "https://youtube.com",
+    "score": "9/7",
+    "timestamp": "2025-08-21 23:59:44",
+    "title": "YouTube"
+  },
+  {
+    "url": "https://hp.com",
+    "score": "7/7",
+    "timestamp": "2025-08-21 23:59:01",
+    "title": "Laptop Computers, Desktops, Printers, Ink & Toner  | HP\u00ae\u202fIndia"
+  },
+  {
+    "url": "https://facebook.com",
+    "score": "7/7",
+    "timestamp": "2025-08-21 23:58:39",
+    "title": "Facebook - \u0cb2\u0cbe\u0c97\u0ccd \u0c87\u0ca8\u0ccd \u0c85\u0ca5\u0cb5\u0cbe \u0cb8\u0cc8\u0ca8\u0ccd \u0c85\u0caa\u0ccd"
+  },
+  {
+    "url": "https://facebook.com",
+    "score": "7/7",
+    "timestamp": "2025-08-21 23:58:20",
+    "title": "Facebook - \u0cb2\u0cbe\u0c97\u0ccd \u0c87\u0ca8\u0ccd \u0c85\u0ca5\u0cb5\u0cbe \u0cb8\u0cc8\u0ca8\u0ccd \u0c85\u0caa\u0ccd"
+  },
+  {
+    "url": "https://google.com",
+    "score": "4/7",
+    "timestamp": "2025-08-21 23:58:10",
+    "title": "Google"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "8/7",
+    "timestamp": "2025-08-21 23:57:48",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "8/7",
+    "timestamp": "2025-08-21 23:57:03",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "8/7",
+    "timestamp": "2025-08-21 23:56:29",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "8/7",
+    "timestamp": "2025-08-21 23:56:24",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "8/7",
+    "timestamp": "2025-08-21 23:56:18",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://lenovo.com",
+    "score": "8/7",
+    "timestamp": "2025-08-21 23:55:23",
+    "title": "\r\n    Lenovo\u00ae Official India Site | Laptops, Tablets, Desktops & Servers | Lenovo IN\r\n"
+  },
+  {
+    "url": "https://instagram.com",
+    "score": "7/7",
+    "timestamp": "2025-08-21 23:54:56",
+    "title": "Instagram"
+  },
+  {
+    "url": "https://instagram.com",
+    "score": "7/7",
+    "timestamp": "2025-08-21 23:53:21",
+    "title": "Instagram"
+  },
+  {
+    "url": "https://google.com",
+    "score": "4/7",
+    "timestamp": "2025-08-21 23:53:01",
+    "title": "Google"
+  },
+  {
+    "url": "https://facebook.com",
+    "score": "7/7",
+    "timestamp": "2025-08-21 23:52:42",
+    "title": "Facebook - \u0cb2\u0cbe\u0c97\u0ccd \u0c87\u0ca8\u0ccd \u0c85\u0ca5\u0cb5\u0cbe \u0cb8\u0cc8\u0ca8\u0ccd \u0c85\u0caa\u0ccd"
+  },
+  {
+    "url": "https://facebook.com",
+    "score": "7/7",
+    "timestamp": "2025-08-21 23:50:22",
+    "title": "Facebook - \u0cb2\u0cbe\u0c97\u0ccd \u0c87\u0ca8\u0ccd \u0c85\u0ca5\u0cb5\u0cbe \u0cb8\u0cc8\u0ca8\u0ccd \u0c85\u0caa\u0ccd"
+  },
+  {
+    "url": "https://facebook.com",
+    "score": "7/7",
+    "timestamp": "2025-08-21 23:50:19",
+    "title": "Facebook - \u0cb2\u0cbe\u0c97\u0ccd \u0c87\u0ca8\u0ccd \u0c85\u0ca5\u0cb5\u0cbe \u0cb8\u0cc8\u0ca8\u0ccd \u0c85\u0caa\u0ccd"
+  },
+  {
+    "url": "https://example.com",
+    "score": "3/7",
+    "timestamp": "2025-08-21 23:49:26",
+    "title": "Example Domain"
+  },
+  {
+    "url": "https://google.com",
+    "score": "4/7",
+    "timestamp": "2025-08-21 23:48:48",
+    "title": "Google"
+  },
+  {
+    "url": "https://google.com",
+    "score": "3/6",
+    "timestamp": "2025-08-21 23:43:22",
+    "title": "Google"
+  },
+  {
+    "url": "https://example.com",
+    "score": "3/6",
+    "timestamp": "2025-08-21 23:43:07",
+    "title": "Example Domain"
+  },
+  {
+    "url": "https://example.com",
+    "score": "3/6",
+    "timestamp": "2025-08-21 23:42:04",
+    "title": "Example Domain"
+  },
+  {
+    "url": "https://example.com",
+    "score": "3/6",
+    "timestamp": "2025-08-21 23:33:19",
+    "title": "Example Domain"
+  }
+]

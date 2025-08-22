@@ -1,0 +1,64 @@
+
+---
+
+## Frontend (Vanilla HTML/CSS/JS)
+
+### `frontend/index.html`
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Website Audit Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Website Audit Tool</h1>
+    <p>Security + Performance checks for any URL</p>
+  </header>
+
+  <main>
+    <form id="audit-form">
+      <input id="url-input" type="url" placeholder="https://example.com" required />
+      <button type="submit" id="audit-btn">Run Audit</button>
+    </form>
+
+    <section id="loading" hidden>Auditing…</section>
+    <section id="error" class="error" hidden></section>
+
+    <section id="summary" hidden>
+      <div class="card">
+        <h2>Overall</h2>
+        <div class="score-line">
+          <span id="overall-grade" class="badge">—</span>
+          <span id="overall-score">0</span>/100
+        </div>
+        <p><strong>Final URL:</strong> <span id="final-url"></span></p>
+        <p><strong>Status:</strong> <span id="status-code"></span></p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Security <span id="sec-grade" class="badge">—</span></h3>
+          <p class="subscore"><span id="sec-score">0</span>/100</p>
+          <ul id="sec-findings" class="findings"></ul>
+        </div>
+        <div class="card">
+          <h3>Performance <span id="perf-grade" class="badge">—</span></h3>
+          <p class="subscore"><span id="perf-score">0</span>/100</p>
+          <p class="muted" id="perf-overview"></p>
+          <ul id="perf-findings" class="findings"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Tip: Enable compression, caching, HTTPS, and security headers for best grades.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
